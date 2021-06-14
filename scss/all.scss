@@ -1,0 +1,172 @@
+@import "bootstrap/bootstrap";
+
+/*字體*/
+body {
+    font-family: 'Noto Sans TC', sans-serif;
+
+}
+.ff-bt2{
+    font-family: 'Baloo Tamma 2', cursive;
+}
+.fw700{
+    font-weight: 700;
+}
+.fw600{
+    font-weight: 600;
+}
+
+/*字體大小設定*/ 
+.fz-1{
+    font-size: 12px;
+}
+.fz-2{
+    font-size: 14px;
+}
+.fz-3{
+    font-size: 18px;
+}
+.fz-4{  
+    font-size: 20px;
+}
+.fz-5{
+    font-size: 24px;
+}
+.fz-6{
+    font-size: 32px;
+}
+
+/*list-style-none*/
+ul li{
+    list-style: none;
+}
+.text-decoration-none{
+    text-decoration: none;
+}
+/*text-color*/
+.text-light-1{
+    color: #636057; 
+}
+.text-secondary-1{
+    color: #858377; 
+}
+.text-darkGray{
+   color: #1F1E00;
+}
+
+/*bg-color*/
+.bg-gray-100{
+ background: $gray-100;
+}
+.bg-darkGary{
+    background: #E8E8DB;
+}
+
+/*btn-color*/
+.btn-danger-1{
+    color: #ffffff;
+    background: #FF785E;    
+}
+.btn-danger-1-hover:hover{
+    color: #ffffff;
+    background: #FF785E;    
+}
+.btn-warning-1-hover:hover>i{
+    color: #FF785E;
+}
+.btn-warning-1{
+    color: #636057; 
+    background :#FFDF65;     
+}
+.btn-warning-1-hover:hover{
+    color: #636057; 
+    background :#FFDF65; 
+    border: 1px solid #FFDF65;}
+
+.btn-outline-secondary-1{
+    color: #858377;
+    border: 2px solid #858377;
+    background: #ffffff;
+}
+.btn-secondary-1-hover:hover{
+    color: #ffffff;
+    background: #858377;    
+}
+
+/*padding margin*/
+.padding-1{    
+    padding: 8px 32px;      
+}
+.padding-2{
+    padding: 24px 20px;
+}
+.padding-3{
+    padding: 48px 0px;
+}
+
+/*border*/
+.border-warning-1{
+    border-top:4px solid #ffc107;
+}
+
+/*nav-border*/
+.nav-border{
+ border-top: 1px solid $gray-100; 
+ border-bottom: 1px solid $gray-100;
+}
+
+/*tab-content-border+padding*/
+.h3title{    
+    border-left: 4px solid #FFDF65;     
+    padding-left: 15px;
+}
+
+/*border-radius*/
+.border-rounded-1{
+    border-radius: 15px;
+}
+.border-radius-2{
+    border-radius: 19px;
+}
+.border-radius-3{
+    border-radius: 26px; 
+}
+.border-radius-4{
+    border-radius: 32px; 
+}
+
+/*letter-sapcing*/
+.letter-spacing-1{
+    letter-spacing: 1.92px;
+}
+.letter-spacing-2{
+   letter-spacing: 3px;  
+}
+.line-height-1{
+    line-height: 32px;
+}
+
+/*贊助方案*/
+
+// @media (max-width: 992px){
+//       .d-none-1{
+//           display: none;
+//     }
+// }
+// @media (max-width: 768px){
+//       .d-none-1{
+//           display: none;
+//     }
+// }
+// @media (max-width: 576px){
+//       .d-none-1{
+//           display: none;
+//     }
+// }
+
+/*footer*/
+footer{
+    background: $body-color;
+}
+
+
+
